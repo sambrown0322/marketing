@@ -1,0 +1,193 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid gray; */
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+body {
+  background-color: whitesmoke;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Yellowtail", cursive;
+  background-color: forestgreen;
+  opacity: 0.8;
+}
+h1 {
+  font-size: 3rem;
+  width: 15%;
+  margin-left: 1.5rem;
+}
+header nav {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+}
+nav a {
+  font-size: 1.4rem;
+  font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
+}
+nav a:visited {
+  color: whitesmoke;
+}
+section {
+  width: 60%;
+  margin: 0 auto;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+}
+.first {
+  /* background-image: url(./photos/matthew-brodeur-qcCPIhhdgTw-unsplash.jpg); */
+  background-image: url(./photos/esteban-lopez-n57RcHSs4WQ-unsplash4.jpg);
+  height: 30vh;
+  background-size: 100%;
+  color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  /* opacity: 0.8; */
+  width: 85%;
+}
+.first p {
+  width: 75%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 2.2rem;
+}
+a {
+  text-decoration: none;
+}
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+footer {
+  font-family: "Yellowtail", cursive;
+  background-color: forestgreen;
+  opacity: 0.8;
+}
+footer nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.second div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  text-align: center;
+}
+img {
+  width: 48%;
+}
+.second p {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* background-image: url(./photos/cannabis-1032119_640.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.second a {
+  font-size: 1.6rem;
+  color: whitesmoke;
+  background-color: forestgreen;
+  opacity: 0.8;
+  width: 75%;
+  margin: 0 auto;
+  border: 3px dashed black;
+  border-radius: 10px;
+}
