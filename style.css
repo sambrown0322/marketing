@@ -94,7 +94,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: "Yellowtail", cursive;
   background-color: forestgreen;
   opacity: 0.8;
 }
@@ -102,6 +101,7 @@ h1 {
   font-size: 3rem;
   width: 15%;
   margin-left: 1.5rem;
+  font-family: "Yellowtail", cursive;
 }
 header nav {
   display: flex;
@@ -115,6 +115,9 @@ nav a {
 }
 nav a:visited {
   color: whitesmoke;
+}
+h1 a:visited {
+  color: black;
 }
 section {
   width: 60%;
@@ -190,4 +193,122 @@ img {
   margin: 0 auto;
   border: 3px dashed black;
   border-radius: 10px;
+}
+.break {
+  border-bottom: 3px dashed black;
+  padding-top: 1.5rem;
+  width: 85%;
+  margin: 0 auto;
+}
+.separate {
+  padding: 0 0.3rem 0 0.5rem;
+  border-right: 3px dashed black;
+}
+.title {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.6rem;
+  text-align: center;
+}
+@media (max-width: 1350px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  section {
+    font-size: 0.9rem;
+  }
+  header nav {
+    width: 75%;
+  }
+  nav a {
+    font-size: 1.2rem;
+  }
+  .second a {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 1075px) {
+  h1 {
+    font-size: 2rem;
+    width: 20%;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.6rem;
+    width: 30%;
+    margin-left: 1rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  section {
+    font-size: 0.8rem;
+  }
+  header nav {
+    width: 100%;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+  .second a {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 760px) {
+  h1 {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  nav a {
+    font-size: 0.8rem;
+  }
+  .second a {
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 625px) {
+  header nav {
+    flex-flow: column wrap;
+    max-height: 17vh;
+    justify-content: center;
+  }
+  nav a {
+    padding-bottom: 0.6rem;
+  }
+  h2 {
+    font-size: 0.9rem;
+  }
+  section {
+    font-size: 0.7rem;
+  }
+  .second a {
+    width: 100%;
+  }
 }
