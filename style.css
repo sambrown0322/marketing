@@ -200,6 +200,11 @@ img {
   border: 3px dashed black;
   border-radius: 10px;
 }
+.second a:hover {
+  background-color: black;
+  color: forestgreen;
+  border: 3px dashed whitesmoke;
+}
 .break {
   border-bottom: 3px dashed black;
   width: 85%;
@@ -338,6 +343,13 @@ img {
     max-height: 17vh;
     /* justify-content: stretch; */
     align-items: center;
+  }
+  h1 {
+    width: 40%;
+    font-size: 2.4rem;
+  }
+  header nav {
+    width: 60%;
   }
   nav a {
     padding: 0.4rem 0;
